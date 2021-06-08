@@ -1,0 +1,26 @@
+{
+    "gatos":[
+        {
+            "nome" : "Safira",
+            "idade" : 10,
+            "cor" : "preta e branca"
+        },
+        {
+            "nome" : "Cam",
+            "idade" : 10,
+            "cor" : "branco"
+        }
+    ],
+    "cachorros":[
+        {
+            "nome" : "Mello",
+            "idade" : 1,
+            "cor" : "caramelo"
+        },
+        {
+            "nome" : "Rosinha",
+            "idade" : 13,
+            "cor" : "branca"
+        }
+    ]
+}
