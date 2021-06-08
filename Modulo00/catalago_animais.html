@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Catálogo de Animais de Estimação</title>
+        <script type="text/javascript">
+        let json = `{
+            "gatos":[
+        {
+            "nome" : "Safira",
+            "idade" : 10,
+            "cor" : "preta e branca"
+        },
+        {
+            "nome" : "Cam",
+            "idade" : 10,
+            "cor" : "branco"
+        }
+    ],
+    "cachorros":[
+        {
+            "nome" : "Mello",
+            "idade" : 1,
+            "cor" : "caramelo"
+        },
+        {
+            "nome" : "Rosinha",
+            "idade" : 13,
+            "cor" : "branca"
+        }
+    ]
+}`
+
+        // console.log(JSON.parse)
+        let animais = JSON.parse(json);
+        console.log(animais.gatos[0].cor)
+        </script>
+    </head>
+    <body>
+
+    </body>
+    </html>
